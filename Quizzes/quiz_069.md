@@ -1,12 +1,12 @@
-quiz_069
+# quiz_069
 
-#Paper Program
-![](https://github.com/KaiFig/year_2/blob/main/quizzes/Quiz_070.jpg)
+## Paper Program
+![](https://github.com/Verlonskg/IB_G12/blob/main/Files/quizzes/quiz_069.jpg)
 
-#Code Evidence
-![](https://github.com/KaiFig/year_2/blob/main/quizzes/Quiz_070_test.jpg)
+## Code Evidence
+![](https://github.com/Verlonskg/IB_G12/blob/main/Files/quizzes/quiz_069_test.jpg)
 
-#Code
+## Code
 
 ```.py
 n = input("number: ")
