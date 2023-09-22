@@ -1,4 +1,4 @@
-# quiz_070
+# quiz_071
 
 ## Paper Program
 ![](https://github.com/Verlonskg/IB_G12/blob/main/Files/quizzes/quiz_071.jpg)
