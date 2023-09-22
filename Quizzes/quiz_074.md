@@ -10,10 +10,13 @@
 ## Code
 
 ```.py
-n = input("number: ")
-for a in range(256):
-    for b in range(256):
-        for c in range(256):
-            for d in range(256):
-                print(f"{a}.{b}.{c}.{d}")
+import math
+
+def build_data_pkg(Mac_rx, IP_rx, Mac_sx, IP_sx, data):
+    length = math.ceil(len(data)/3)
+    output = []
+    for i in range(length):
+        temp = data[4*i : 4*(i+1)]
+        output.append(f"{Mac_rx}|{IP_rx}|{Mac_sx}|{IP_sx}|{temp}")
+    return output
 ```
