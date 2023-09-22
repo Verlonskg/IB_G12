@@ -5,7 +5,7 @@
 
 
 ## Code Evidence
-![](https://github.com/Verlonskg/IB_G12/blob/main/Files/quizzes/quiz_060_test.jpg)
+![](https://github.com/Verlonskg/IB_G12/blob/main/Files/quizzes/quiz_070_test.jpg)
 
 ## Code
 
