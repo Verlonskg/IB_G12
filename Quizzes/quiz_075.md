@@ -10,5 +10,16 @@
 ## Code
 
 ```.py
+def binary(num):
+    output = ""
+    for i in range(8):
+        output += str((num//2**i)%2)
+    return output[::-1]
 
+def osi_model(data):
+    output = ""
+    for i in range(len(data)):
+        output += binary(ord(data[i]))
+        output += " "
+    return output
 ```
