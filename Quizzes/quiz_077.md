@@ -10,5 +10,14 @@
 ## Code
 
 ```.py
+def parity_check(data: str):
+    output = []
+    for i in range(1, len(data)):
+        if data[i] == "1":
+            output.append(1)
 
+    if len(output)%2 < 1:
+        return "True"
+    else:
+        return "False"
 ```
