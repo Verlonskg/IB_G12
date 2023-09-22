@@ -10,5 +10,11 @@
 ## Code
 
 ```.py
-
+def error_check(data):
+    output = False
+    length = len(data)//3
+    for i in range(length):
+        if not data[i] == data[i + length] == data[i + 2 * length]:
+            output = True
+    return output
 ```
